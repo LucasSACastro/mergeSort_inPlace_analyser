@@ -18,7 +18,7 @@ void merge_inPlace(int vect[], int i,int m, int j,int n);
 /** Ordena a região de vector[] compreendida entre bgn inclusive e end inclusive. **/
 void mergeSort(int vector[], int bgn,int end) {
     if(bgn<end) {
-        int middle = bgn+end/2;
+        int middle = (bgn+end)/2;
         mergeSort(vector, bgn,middle);
         mergeSort(vector, middle+1,end);
         merge_inPlace(vector, bgn,middle, middle+1,end);
@@ -70,7 +70,7 @@ void merge_inPlace(int vect[], int i,int m, int j,int n) {
    }
 
    /* Insere o componente novo onde cabe. */
-   vect[comp-1];
+   vect[comp-1] = temp;
   }
 
  }
