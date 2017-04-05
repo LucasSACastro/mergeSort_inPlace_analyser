@@ -7,21 +7,21 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=GNU-Linux-x86
-CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=mergesort_inplace_analyser
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/mergesort_inplace_analyser
-CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=mergesortinplaceanalyser.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/mergesortinplaceanalyser.tar
+CND_PLATFORM_Debug=GNU-Linux
+CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
+CND_ARTIFACT_NAME_Debug=mergesort
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/mergesort
+CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
+CND_PACKAGE_NAME_Debug=mergesort.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/mergesort.tar
 # Release configuration
-CND_PLATFORM_Release=GNU-Linux-x86
-CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=mergesort_inplace_analyser
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/mergesort_inplace_analyser
-CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=mergesortinplaceanalyser.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/mergesortinplaceanalyser.tar
+CND_PLATFORM_Release=GNU-Linux
+CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
+CND_ARTIFACT_NAME_Release=mergesort
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/mergesort
+CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
+CND_PACKAGE_NAME_Release=mergesort.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/mergesort.tar
 #
 # include compiler specific variables
 #

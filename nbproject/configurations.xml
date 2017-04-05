@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="95">
+<configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
-                   displayName="Arquivos de Cabeçalho"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>entradaSaida.h</itemPath>
+      <itemPath>ordination.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
                    projectFiles="true">
     </logicalFolder>
     <logicalFolder name="SourceFiles"
-                   displayName="Arquivos de Código-Fonte"
+                   displayName="Source Files"
                    projectFiles="true">
+      <itemPath>entradaSaida.c</itemPath>
       <itemPath>main.c</itemPath>
-    </logicalFolder>
-    <logicalFolder name="ResourceFiles"
-                   displayName="Arquivos de Recurso"
-                   projectFiles="true">
+      <itemPath>ordination.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
-                   displayName="Arquivos de Teste"
+                   displayName="Test Files"
                    projectFiles="false"
                    kind="TEST_LOGICAL_FOLDER">
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
-                   displayName="Arquivos Importantes"
+                   displayName="Important Files"
                    projectFiles="false"
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
-      <itemPath>README.md</itemPath>
-      <itemPath>githubtemp1.pseudocodex</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -38,7 +40,15 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="entradaSaida.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="entradaSaida.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ordination.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ordination.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -61,7 +71,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="entradaSaida.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="entradaSaida.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ordination.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ordination.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
