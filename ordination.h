@@ -6,7 +6,7 @@
 
 /* 
  * File:   ordination.h
- * Author: adan
+ * Author: BORGES, Gustavo; CASTRO, Lucas S. A.; ROSA, Murilo N.; SANTOS, Adan R. D.; SILVA, Haltielles C.; 
  *
  * Created on 16 de Março de 2017, 17:38
  */

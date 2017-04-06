@@ -1,6 +1,6 @@
 /* 
  * File:   main.c
- * Author: Adan Santos
+ * Author: BORGES, Gustavo; CASTRO, Lucas S. A.; ROSA, Murilo N.; SANTOS, Adan R. D.; SILVA, Haltielles C.; 
  * 
  * Feito para a matéria COM112 - Algoritmos e Estrutura de Dados - UNIFEI
  */
@@ -117,7 +117,7 @@ void merge(int vet[], int inicio, int meio, int fim) {
     return;
 }
 
-int main()
+int main(int argc, char** argv)
 {
     int array[MAX];
     int size, seed, option;

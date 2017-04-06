@@ -1,10 +1,10 @@
 /*
  * File:    ordination.c
- * Author:  Adan Santos
+ * Author: BORGES, Gustavo; CASTRO, Lucas S. A.; ROSA, Murilo N.; SANTOS, Adan R. D.; SILVA, Haltielles C.; 
  * 
  * Biblioteca de algoritmos de ordenação 
  */
-#include<stdlib.h>
+#include <stdlib.h>
 #include "ordination.h"
 
 /**
